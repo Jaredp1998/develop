@@ -25,4 +25,5 @@ public class Projects implements Serializable {
     private @NonNull int min;
 
     private @NonNull int max;
+
 }
