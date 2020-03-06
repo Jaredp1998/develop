@@ -1,0 +1,66 @@
+<form action="https://that website we need to send it to.php" target="_blank" method="GET">
+
+    <label for="SName">Name:</label>
+    <input type="text" name="SName" id="SName">
+    <h1> Time availability</h1>
+    <table>
+<tr>
+    <th>Times</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+</tr>
+  <th>Morning</th>
+  <td><input type="checkbox" name="MonMorn" />&nbsp;</td>
+  <td><input type="checkbox" name="TueMorn" />&nbsp;</td>
+  <td><input type="checkbox" name="WenMorn" />&nbsp;</td>
+<td><input type="checkbox" name="ThurMorn" />&nbsp;</td>
+<td><input type="checkbox" name="FriMorn" />&nbsp;</td>
+<td><input type="checkbox" name="SatMorn" />&nbsp;</td>
+<td><input type="checkbox" name="SunMorn" />&nbsp;</td>
+</tr>
+<tr>
+  <th>Afternoon</th>
+  <td><input type="checkbox" name="MonAft" />&nbsp;</td>
+<td><input type="checkbox" name="TueAft" />&nbsp;</td>
+<td><input type="checkbox" name="WenAft" />&nbsp;</td>
+<td><input type="checkbox" name="ThurAft" />&nbsp;</td>
+<td><input type="checkbox" name="FriAft" />&nbsp;</td>
+<td><input type="checkbox" name="SatAft" />&nbsp;</td>
+<td><input type="checkbox" name="SunAft" />&nbsp;</td>
+</tr>
+        <tr>
+  <th>Evening</th>
+  <td><input type="checkbox" name="MonEve" />&nbsp;</td>
+<td><input type="checkbox" name="TueEve" />&nbsp;</td>
+<td><input type="checkbox" name="WenEve" />&nbsp;</td>
+<td><input type="checkbox" name="ThurEve" />&nbsp;</td>
+<td><input type="checkbox" name="FriEve" />&nbsp;</td>
+<td><input type="checkbox" name="SatEve" />&nbsp;</td>
+<td><input type="checkbox" name="SunEve" />&nbsp;</td>
+</tr>
+</table>
+    <h2> Press CTRL to select multiple skillsets</h2>
+    <!--Doing it this way to show a difference in widgets, even if the checkbox may be more efficient--->
+    <select name="Skillset" size="8" multiple>
+  <option value="red">Networking</option>
+  <option value="orange">General IT</option>
+  <option value="yellow">Scripting</option>
+  <option value="green">Databases</option>
+  <option value="blue">Coding</option>
+  <option value="purple">User Interface design</option>
+  <option value="white">Data and algoritmicc structures</option>
+  <option value="black">Cybersecurity</option>
+</select>
+
+
+    <p><input type="submit" value="Submit"></p>
+
+
+
+
+</form>
